@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bai1_1"/>
+        <attribute name="authors" value="DELL PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-25 03:54:38 PM"/>
+        <attribute name="created" value="REVMTCBQQztERVNLVE9QLU9CTjVGSkg7MjAyNS0wOS0yNTswMzo0ODowNyBQTTsyODM0"/>
+        <attribute name="edited" value="REVMTCBQQztERVNLVE9QLU9CTjVGSkg7MjAyNS0wOS0yNTswMzo1NDozOCBQTTsxOzI5NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p c&#7841;nh tam gi&#225;c a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nh&#7853;p chi&#7873;u cao tam gi&#225;c h: &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="1/2*(a*h)"/>
+            <output expression="&quot;di&#7879;n t&#237;ch tam gi&#225;c l&#224;: &quot;&amp;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
